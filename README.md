@@ -47,6 +47,6 @@ Functional Requirements:
     - Be a part of our active community of book lovers. Participate in forums, discussions, and events centred around the joy of reading and book trading.
 
 **Contributions:**
-    - Devansh Kumar - Seller profile, seller and customer interaction and book catalogue
-    - Harsh Rajput - user registration, reviews and order management
-    - Bhaskar Kashyap - Selling and buying old books, searching and filtering books by genres, authors, etc. and shopping cart and checkout
+Devansh Kumar - Seller profile, seller and customer interaction and book catalogue;<br />
+Harsh Rajput - user registration, reviews and order management;<br />
+Bhaskar Kashyap - Selling and buying old books, searching and filtering books by genres, authors, etc. and shopping cart and checkout;
