@@ -46,7 +46,7 @@ Functional Requirements:
     - Engage in negotiations with sellers and make offers on old books. Our platform facilitates friendly communication between buyers and sellers to ensure a satisfactory deal for both parties. Trade independently without external interference. 
     - Be a part of our active community of book lovers. Participate in forums, discussions, and events centred around the joy of reading and book trading.
 
-**Contributions:**
+**Contributions:**<br />
 Devansh Kumar - Seller profile, seller and customer interaction and book catalogue;<br />
 Harsh Rajput - user registration, reviews and order management;<br />
 Bhaskar Kashyap - Selling and buying old books, searching and filtering books by genres, authors, etc. and shopping cart and checkout;
