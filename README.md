@@ -42,6 +42,11 @@ Functional Requirements:
     - Customers can also post pictures of the books to review the delivery service.
 
 9. Sell and Buy Old Books:
-    - Explore a wide range of old books listed by sellers from various genres, ensuring a diverse selection for book enthusiasts ,that too at a minimal cost.
+    - Explore a wide range of old books listed by sellers from various genres, ensuring a diverse selection for book enthusiasts at a minimal cost.
     - Engage in negotiations with sellers and make offers on old books. Our platform facilitates friendly communication between buyers and sellers to ensure a satisfactory deal for both parties. Trade independently without external interference. 
-    - Be a part of our active community of book lovers. Participate in forums, discussions, and events centered around the joy of reading and book trading.
+    - Be a part of our active community of book lovers. Participate in forums, discussions, and events centred around the joy of reading and book trading.
+
+**Contributions:**
+Devansh Kumar - Seller profile, seller and customer interaction and book catalogue
+Harsh Rajput - user registration, reviews and order management
+Bhaskar Kashyap - Selling and buying old books, searching and filtering books by genres, authors, etc. and shopping cart and checkout
