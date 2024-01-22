@@ -33,8 +33,8 @@ Functional Requirements:
 
 7. Seller Interaction with customers:
    - Booksellers should be able to register and provide details about their books for sale.
-   - Sellers can 
-   - The system shoSell and Buy Old Booksuld facilitate communication between the bookstore and vendors.
+   - Sellers can Sell and Buy Old Books
+   - The system should facilitate communication between the bookstore and vendors.
 
 8. Reviews and Ratings:
     - Allow customers to leave reviews and ratings for books.
