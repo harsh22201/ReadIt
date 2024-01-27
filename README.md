@@ -1,52 +1,105 @@
-# DBMS-Project
+# ReadIt
 
-Online Bookstore Management System – Business Requirements:
+# Introduction 📖
 
-Objective:
-The Online Bookstore Management System aims to create an efficient platform for managing an online bookstore's inventory, sales, and customer interactions.
+ReadIt is a practical online book retail platform, serving as our database management system project. Specifically designed for users, including customers, authors, publishers, and administrators, ReadIt focuses on simplicity and functionality. The platform features a straightforward interface, allowing users to perform essential actions like account creation, login, book exploration, adding to a virtual cart, and placing orders with ease.
 
-Functional Requirements:
+# General Features 🖥️
 
-1. User Registration and Authentication:
-   - Customers and sellers should be able to register on the platform and provide necessary information like name, email, and password.
-   - Users must be able to log in securely using their unique credentials.
+-   **Sign Up**
 
-2. Book Catalog:
-   - The system should maintain a catalogue of books with details such as title, author, genre, ISBN, price, and availability.
-   - E-books can be categorized by genres and authors for easy navigation.
-   - Other books can also be classified based on covers (e.g., hardcover, paperback, etc.).
+ReadIt allows users to sign up for an account on the platform. This process is easy. Customers need to select the type of account they want to create, such as customer, delivery partner, or seller, and fill in their personal details for signing up.
 
-3. Search and Filtering:
-   - Customers should be able to search for books based on different criteria(e.g., title, author, genre).
-   - Filtering options should be available to refine search results. Filtering could be based on prices, popularity, etc.
+-   **Login**
 
-4. Cart and Checkout:
-   - Users should be able to add books to their shopping cart.
-   - The system should support a secure checkout and payment process.
+Once the user has signed up, they can log in to their account to access the platform's features. The application offers different login options for customers, delivery partners, and administrators, depending on their account type.
 
-5. Order Management:
-   - The system should track and store order details, including items purchased, quantity, delivery time and total cost.
+# StakeHolders
 
-6. User Profiles:
-   - Customers and sellers should have individual profiles with relevant information.
-   - Users can view order history, manage personal details and update account settings.
+## Customers 🧑🏻‍🏫
 
-7. Seller Interaction with customers:
-   - Booksellers should be able to register and provide details about their books for sale.
-   - Sellers can Sell and Buy Old Books
-   - The system should facilitate communication between the bookstore and vendors.
+Individuals who will interact with the system
 
-8. Reviews and Ratings:
-    - Allow customers to leave reviews and ratings for books.
-    - Display average ratings and reviews on book pages.
-    - Customers can also post pictures of the books to review the delivery service.
+-   **View Products:**
 
-9. Sell and Buy Old Books:
-    - Explore a wide range of old books listed by sellers from various genres, ensuring a diverse selection for book enthusiasts at a minimal cost.
-    - Engage in negotiations with sellers and make offers on old books. Our platform facilitates friendly communication between buyers and sellers to ensure a satisfactory deal for both parties. Trade independently without external interference. 
-    - Be a part of our active community of book lovers. Participate in forums, discussions, and events centred around the joy of reading and book trading.
+Customers can browse and view the products available on the platform. They can `sort products` by Genre, such as Fiction, Non Fiction, Children, Study etc. They can also `filter Books` by price, languages and Bindings.
 
-**Contributions:**<br />
-Devansh Kumar - Seller profile, seller and customer interaction and book catalogue;<br />
-Harsh Rajput - user registration, reviews and order management;<br />
-Bhaskar Kashyap - Selling and buying old books, searching and filtering books by genres, authors, etc. and shopping cart and checkout;
+-   **Add to Cart:**
+
+Customers can add products to their cart, view the products they have added and change their orders as required to buy them later. The application stores their cart data, so they can return and complete their order later. They can also remove items from their cart if they change their minds.
+
+-   **Place and Track Order:**
+
+Users can place orders using their cart. Customers can then track the status of their orders on the platform. They can see the current status of the order, such as order placed, order shipped, or order delivered.
+
+-   **View Order History:**
+
+Customers can view their past order details on the platform. They can see the details of their past orders, such as the products ordered, their `quantity`, the `order_date`, the `order_status`, the `order_value` and more.
+
+-   **View Transaction History:**
+
+Customers can view their payment history on the platform. They can see the details of their past payments, such as the `payment method` , the `amount paid`, the `date of payment` and more.
+
+-   **View Account History:**
+
+Users can view their account details on the platform. They can see their personal information, such as their `name`, `email_address`, `phone_number`, `shipping_address`, etc. They can also update their account information if required.
+
+-   **Rating and Reviews:**
+
+Users can give feedback by `rating delivery partner, products` and contacting customer support in case of any grievances or issues.
+
+## Administrator 👨‍✈️
+
+Responsible for designing, implementing, and maintaining the Inventory of our store.
+
+-   **Number of Orders Placed by Each Customer and Total Orders:**
+
+This feature allows administrators to see the total number of orders placed by each customer and the total number of orders on the platform.
+
+-   **Sales Revenue for each Category with Total Revenue:**
+
+Administrators can view the total revenue generated by each product category and the total revenue of the platform.
+
+-   **Total Number of Orders completed by each delivery partner and the Total Number of Orders Completed**
+
+This feature allows administrators to view the total number of orders completed by each delivery partner and the total number of orders on the platform.
+
+-   **Number of Products in each Category and the total number of Products:**
+
+Administrators can view the number of products available in each category and the total number of products on the platform.
+
+-   **Add a Category / Product:**
+
+Admin can add new product categories to their platform to offer more options to customers.
+
+-   **Delete a Category / Product**
+
+Remove individual products or entire product categories from the platform if we no longer sell them or not in our inventory. This transaction deletes the product from the `cart`, `products` and `inventory` tables.
+
+## Delivery Partners 🛵
+
+Individuals responsible for delivering the physical books to customers.
+They are given a rating on our application. He/she can view that rating and its current salary.  
+Features apart from this includes
+
+-   **View Delivery History:**
+
+Delivery partners can view their delivery history on the platform. They can see the details of their past deliveries, such as the order details, the date of delivery, the customer details, and more.
+
+-   **Current Orders:**
+
+Delivery Partners can see the `order_id` of the orders assigned to it currently.
+
+-   **See Items Present in an Order:**
+
+Upon entering the `order_id`, the delivery partner can see the list of items to be picked up for that order.
+
+-   **Deliver an Order:**
+
+Delivery partners can mark an order as delivered once it is delivered to the customer. The customer will be notified about the delivery, and the order_status will be updated on the Database.
+
+## Suppliers 📦
+
+Publishers/Distributors/Wholesalers involved in providing the inventory of books to our online store. They are critical for maintaining a diverse and updated collection of books.
+
+Thank you for choosing ReadIt, and we look forward to serving you soon!
