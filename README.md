@@ -102,4 +102,8 @@ Delivery partners can mark an order as delivered once it is delivered to the cus
 
 Publishers/Distributors/Wholesalers involved in providing the inventory of books to our online store. They are critical for maintaining a diverse and updated collection of books.
 
+# Entity Relationship Model
+
+![ER Diagram](ER.jpeg)
+
 Thank you for choosing ReadIt, and we look forward to serving you soon!
